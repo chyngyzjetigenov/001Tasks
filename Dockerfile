@@ -2,9 +2,9 @@ FROM golang:alpine
 
 WORKDIR /app
 
-COPY test.go .
+COPY main.go .
 
-RUN go build -o main test.go
+RUN go build -o main main.go
 
 EXPOSE 8080
 
