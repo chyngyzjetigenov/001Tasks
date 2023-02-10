@@ -1,8 +1,3 @@
-javad@fedora:~$ mkdir -p .github/workflows
-javad@fedora:~$ touch .github/workflows/push.yml
-
-Add the following config to the push.yml file:
-
 name: golang-pipeline
 on: push
 jobs:
